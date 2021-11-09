@@ -9,7 +9,7 @@ def countWords(bookContents): # counts word from text and switches it into dicti
     wordFrequency = {} # declares empty dictionary
     splitWords = bookContents.split() # splits text into words
     for word in splitWords:
-        wordFrequency[word] = wordFrequency.get(word,0)+1 # counts the frequency of each word
+        wordFrequency[word] = wordFrequency.get(word,0)+1 # counts the frequency of each word, which will be the value
     return wordFrequency
         
 os.chdir("/Users/alyshapm/Desktop/BINUS/Algorithm and Programming/SEM 1/Complete notes") # determines location of file
