@@ -19,7 +19,7 @@ bookContents = book.read() # turns text into str, in which it will go through th
 finalWordCount = countWords(bookContents) # now the text is translated into dictionary
 
 liHapax = [] # declare new list for the hapax
-for key, value in finalWordCount.items(): # declare new list for the hapax
+for key, value in finalWordCount.items():
     if value == 1: # if value in dict equals to 1, then the key, or word, will be appended into the liHapax
         liHapax.append(key)
 
